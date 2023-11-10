@@ -1,0 +1,38 @@
+.music{
+  padding-top: 30px;
+
+}
+h3{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.qu .hd span{
+  text-align: center;
+  display: inline-block;
+  width: 275px;
+  line-height: 50px;
+  border-top: 1px solid #eee;
+  margin-bottom: 20px;
+}
+.qu .hd span:hover{
+  cursor: pointer;
+}
+.qu .bd li{
+  display: none;
+}
+.qu .bd li.current{
+  display: block;
+}
+
+.qu .bd li p{
+  line-height: 50px;
+  border-bottom: 1px solid #eee;
+  color: #333;
+}
+i{
+  font-style:normal;
+  color: #b19462;
+}
+.hd .current{
+  border-bottom:1px solid red;
+}

@@ -1,0 +1,90 @@
+
+.banner{
+  width: 100%;
+  margin-top: 20px;
+}
+/* 标题样式 */
+.title{
+  width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.title h3{
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.title span{
+  font-size: 16px;
+  color: #999;
+}
+/* 种类样式 */
+.content ul li{
+  display: inline-block;
+  width: 260px;
+  background-color: #f6f6f6;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.content ul li:nth-child(4n){
+  margin-right: 0;
+}
+.content ul li:hover{
+  cursor: pointer;
+  background-color: #ff6542;
+}
+.content ul img{
+  display: inline-block;
+  width: 240px;
+  height: 240px;
+  box-sizing: border-box;
+  margin:12px 10px ;
+}
+.content ul p{
+  text-align: center;
+  font-size: 20px;
+  margin: 10px 20px 20px;
+}
+/* 列表样式 */
+.knowledge li{
+  padding-bottom:20px;
+  margin-top: 20px;
+  border-bottom: 1px solid red;
+}
+.knowledge li:first-child{
+  margin-top: 0;
+}
+.knowledge li img{
+  width: 100%;
+  height: 100%;
+}
+.knowledge li p{
+  font-size: 18px;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+.knowledge li span{
+  font-size: 14px;
+}
+.knowledge li .word{
+  margin-top: 12px;
+  font-size: 16px;
+  color: #999;
+}
+.knowledge li img:hover{
+  cursor: pointer;
+  transform: scale(1.02);
+}
+.knowledge li .img_container{
+  float: left;
+  width: 328px;
+  height: 200px;
+  overflow: hidden;
+  z-index: 100;
+  margin-right: 20px;
+}
+.knowledge li .detail{
+  width: 746px;
+  float: left;
+}

@@ -1,0 +1,77 @@
+.dance{
+  background-color: #f6f6f6;
+}
+.wrap {
+  width: 1100px;
+  padding-top:30px;
+}
+
+.slide {
+  height: 460px;
+  position: relative;
+}
+
+.slide li {
+  position: absolute;
+  left: 200px;
+  top: 0;
+}
+.slide li img {
+  width: 100%;
+}
+
+.arrow {
+  position: absolute;
+  top: 48%;
+  z-index: 1000;
+  width: 100%;
+}
+.prev, .next {
+  width: 76px;
+  height: 112px;
+  position: absolute;
+  z-index: 99;
+}
+
+.prev {
+  left: 0;
+  background: url(../images/food/prev.png) no-repeat;
+}
+
+.next {
+  right: 0;
+  background-image: url(../images/food/next.png);
+}
+.content{
+  margin-top: 50px;
+}
+.content li{
+  display:inline-block;
+  width: 260px;
+  border-radius: 10px;
+  background-color: rgba(185, 183, 222, .33);
+  border: 2px solid transparent ;
+  box-sizing: border-box;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.content li:nth-child(4n){
+  margin-right: 0;
+}
+.content li:hover{
+  cursor: pointer;
+  border: 2px #9a97cf solid;
+  transform: translate3d(0, -10px, 0);
+}
+.content li p{
+  text-align: center;
+  padding-top:24px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.content li img{
+  padding:24px 24px 30px;
+  height: 180px;
+  box-sizing: border-box;
+  width: 100%;
+}
